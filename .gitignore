@@ -1,0 +1,17 @@
+# MySQL / dumps locales
+*.sql.bak
+*.sql.tmp
+*.db
+*.db-journal
+
+# Logs
+*.log
+
+# Editores / SO
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+__pycache__/
+.vscode/
+.idea/
