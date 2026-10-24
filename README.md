@@ -30,6 +30,18 @@ Script completo de la base `lab_ventas_mysql` (MySQL 8.x). Incluye:
 Script de creacion de la base `inventory_jh` (MySQL). Convencion de nombres
 `snake_case`. Tablas: `producto`, y las relacionadas.
 
+### `sql/04_inventory_jh_poblado.sql`
+
+Script de **poblado** de `inventory_jh`: inserta los datos de prueba en las
+tablas creadas por `02_inventory_jh.sql`.
+
+Ejecutar en este orden:
+
+```bash
+mysql -u root -p < sql/02_inventory_jh.sql
+mysql -u root -p < sql/04_inventory_jh_poblado.sql
+```
+
 ### `sql/03_dump_liga_universitaria_valle.sql`
 
 Dump de MySQL 8.4.10 de la base `liga_universitaria_valle`. Contiene el
